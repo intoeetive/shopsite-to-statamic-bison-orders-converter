@@ -1,0 +1,16 @@
+The converter is intended for importing orders and members from ShopSite to Statamic and Bison.
+
+Place /converter on your web server (suggested location is web root). If necessary, adjust configuration in config.php
+
+Export ShopSite orders to XML file. Upload the file (default location is /converter/orders.xml)
+
+Point your browser to http://your-domain.com/converter
+
+If there are no errors, the data have been migrated
+
+MAKE SURE TO DELETE converter FOLDER AFTER IMPORT
+
+Author:
+Yuri Salimovskiy
+http://www.intoeetive.com
+https://twitter.com/intoeetive
